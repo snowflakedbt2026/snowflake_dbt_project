@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_data
+    database: DEV
+    schema: RAW_DATA
+
+    tables:
+      - name: ORDERS_DEMO
+      - name: PRODUCTS_DEMO
+      - name: CUSTOMERS
